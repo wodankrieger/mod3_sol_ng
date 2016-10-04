@@ -31,7 +31,6 @@ function NarrowItDownController($scope, MenuSearchService) {
     }
 
     $scope.emptyList = function () {
-        console.log($scope.items);
         if ($scope.items === undefined || $scope.items.length === 0) {
             return true;
         }
